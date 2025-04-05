@@ -9,7 +9,7 @@ import theme from './theme';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/movie-hacksclients">
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <App />
